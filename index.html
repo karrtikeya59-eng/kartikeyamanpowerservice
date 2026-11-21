@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kartikeya Manpower Service provides housekeeping, manpower, security, healthcare staffing, utility staffing, and project support.">
+<title>KMS | Kartikeya Manpower Service</title>
+<style>
+:root{--navy:#102b46;--blue:#2474b8;--sky:#eaf5ff;--ink:#1b2938;--muted:#627184;--line:#dce7f1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6}a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy)}.brand-mark{display:grid;place-items:center;width:48px;height:48px;border-radius:13px;color:var(--navy);background:var(--sky);border:1px solid #c8e3fb;font-size:19px}.brand small{display:block;font-size:10px;letter-spacing:1.4px;color:var(--muted)}.links{display:flex;gap:22px;align-items:center;font-size:14px;font-weight:700}.links a:hover{color:var(--blue)}
+.btn{display:inline-block;padding:12px 19px;border-radius:9px;background:var(--blue);color:white;border:0;font-weight:700;cursor:pointer}.btn:hover{background:#195f99}.btn-outline{background:transparent;border:1px solid #b8d3ea;color:var(--navy)}
+.hero{background:linear-gradient(125deg,#edf7ff,#fff 60%,#e0f0ff);padding:76px 0 70px}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:48px}.eyebrow{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase}h1{font-size:clamp(36px,5vw,58px);line-height:1.08;letter-spacing:-1.8px;color:var(--navy);margin:15px 0}h2{color:var(--navy);font-size:clamp(28px,3vw,38px);line-height:1.2;margin:0 0 12px}.lead{color:var(--muted);font-size:18px;max-width:580px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.hero-art{min-height:330px;border-radius:24px;background:linear-gradient(145deg,#123d63,#2b83c6);padding:26px;display:flex;flex-direction:column;justify-content:end;overflow:hidden;position:relative;color:white;box-shadow:0 22px 55px #153e6026}.hero-art:before,.hero-art:after{content:"";position:absolute;border:1px solid #ffffff35;border-radius:50%;width:270px;height:270px;top:-90px;right:-40px}.hero-art:after{width:190px;height:190px;top:-48px;right:0}.art-symbol{font-size:64px;line-height:1.2;margin-bottom:20px}.hero-art strong{font-size:25px;line-height:1.2;position:relative}.hero-art span{color:#d8ecff;margin-top:8px;position:relative}
+section{padding:76px 0}.section-head{max-width:680px;margin-bottom:32px}.section-head p{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:16px;padding:25px;background:white}.card-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:var(--sky);font-size:23px;margin-bottom:17px}.card h3{color:var(--navy);margin:0 0 8px}.card p{color:var(--muted);margin:0;font-size:15px}
+.about{background:#f7fbff}.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:50px;align-items:center}.about-panel{border-radius:20px;background:var(--navy);padding:34px;color:white}.about-panel h3{font-size:25px;margin-top:0}.about-panel p{color:#d5e5f3}.checks{list-style:none;padding:0;margin:20px 0 0}.checks li{margin:10px 0}.checks li:before{content:"✓";color:#78c6ff;font-weight:800;margin-right:10px}
+.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px}.contact-info{background:var(--sky);border-radius:18px;padding:28px}.contact-info p{color:var(--muted)}form{display:grid;gap:14px}label{font-weight:700;font-size:14px}input,select,textarea{width:100%;margin-top:6px;padding:13px;border:1px solid #cdd9e5;border-radius:9px;font:inherit;background:white}textarea{min-height:120px;resize:vertical}.form-note{font-size:12px;color:var(--muted);margin:0}footer{background:#0b2034;color:white;padding:26px 0}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}footer p{margin:0;color:#c3d3e1;font-size:13px}
+@media(max-width:950px){.cards.industry-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:760px){.nav{padding:12px 0;align-items:flex-start}.links{gap:12px;flex-wrap:wrap;justify-content:flex-end;font-size:12px}.links .nav-cta{display:none}.hero{padding:52px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:28px}.hero-art{min-height:250px}section{padding:55px 0}.cards{grid-template-columns:1fr}}@media(max-width:430px){.brand small{letter-spacing:.5px}.brand-mark{width:42px;height:42px}.links{max-width:155px}.links a{font-size:11px}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="#home" aria-label="KMS home"><span class="brand-mark">KMS</span><span>KARTIKEYA<small>MANPOWER SERVICE</small></span></a>
+<nav class="links" aria-label="Main navigation"><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#industries">Industries</a><a href="#careers">Careers</a><a href="#contact">Contact</a><a class="btn nav-cta" href="#contact">Request a Quote →</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="container hero-grid"><div>
+<div class="eyebrow">Deals in Housekeeping &amp; Manpower Service</div>
+<h1>Reliable People.<br>Exceptional Service.<br><span style="color:#c83232">Every Time.</span></h1>
+<p class="lead">Kartikeya Manpower Service delivers trusted manpower and housekeeping solutions, including security guards, nurses, and power-grid staffing for businesses across industries.</p>
+<div class="hero-actions"><a class="btn" href="#contact">Request a Quote →</a><a class="btn btn-outline" href="tel:9899535668">☎ Call Now</a></div>
+</div><div class="hero-art"><div class="art-symbol" aria-hidden="true">👩‍⚕️ 👨‍💼 👷</div><strong>The Right People. The Right Solutions.</strong><span>Reliable workforce support for your next project.</span></div></div></section>
+
+<section style="padding:22px 0;background:#103d70;color:white"><div class="container" style="display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:13px;font-weight:700"><span>🛡 Trained &amp; Verified Staff</span><span>♧ Industry-Specific Solutions</span><span>◷ On-Time &amp; Reliable</span><span>✧ Quality You Can Trust</span></div></section>
+
+<section id="industries" style="padding:48px 0 25px"><div class="container"><div class="section-head" style="margin:0 auto 25px;text-align:center"><div class="eyebrow">Our experience</div><h2>Trusted by Businesses Across Industries</h2></div>
+<div class="cards industry-grid" style="grid-template-columns:repeat(4,1fr)">
+<article class="card"><div class="card-icon">🏢</div><h3>Corporate Offices</h3></article><article class="card"><div class="card-icon">🏥</div><h3>Hospitals &amp; Healthcare</h3></article><article class="card"><div class="card-icon">🏭</div><h3>Manufacturing</h3></article><article class="card"><div class="card-icon">🛍️</div><h3>Retail &amp; Malls</h3></article><article class="card"><div class="card-icon">🏘️</div><h3>Residential Complexes</h3></article><article class="card"><div class="card-icon">⚡</div><h3>Power &amp; Utilities</h3></article><article class="card"><div class="card-icon">🎓</div><h3>Education</h3></article><article class="card"><div class="card-icon">🚚</div><h3>Logistics &amp; Warehousing</h3></article>
+</div></div></section>
+
+<section id="services"><div class="container"><div class="section-head"><div class="eyebrow">What we do</div><h2>Our Services</h2><p>Comprehensive manpower and facility services tailored to your business needs.</p></div>
+<div class="cards">
+<article class="card"><div class="card-icon">🧹</div><h3>Housekeeping Services</h3><p>Professional cleaning and housekeeping solutions for a clean, safe, and healthy environment.</p></article>
+<article class="card"><div class="card-icon">👥</div><h3>Manpower Services</h3><p>Skilled, semi-skilled and unskilled manpower for short-term and long-term requirements.</p></article>
+<article class="card"><div class="card-icon">🛡️</div><h3>Security Guard Services</h3><p>Trained security personnel to support safety, access control and round-the-clock protection.</p></article>
+<article class="card"><div class="card-icon">👩‍⚕️</div><h3>Nursing &amp; Healthcare Staffing</h3><p>Qualified nurses and healthcare assistants for hospitals, clinics and care facilities.</p></article>
+<article class="card"><div class="card-icon">⚡</div><h3>Power-Grid &amp; Utility Staffing</h3><p>Specialized workforce for power plants, grid operations, maintenance and utility projects.</p></article>
+<article class="card"><div class="card-icon">📋</div><h3>Tender &amp; Project Management</h3><p>End-to-end support in tendering, documentation and manpower deployment for projects.</p></article>
+</div></div></section>
+
+<section class="about" id="about"><div class="container about-grid"><div><div class="eyebrow">About KMS</div><h2>Connecting businesses with people.</h2><p class="lead">Kartikeya Manpower Service provides workforce and facility support to businesses, offices, healthcare facilities, industries, and project teams.</p></div>
+<div class="about-panel"><h3>Why Choose Us</h3><ul class="checks"><li>Verified, trained and disciplined workforce</li><li>Customized solutions for every industry</li><li>Quality control and compliance focus</li><li>Flexible engagement models</li><li>Pan-India deployment capability</li></ul></div></div></section>
+
+<section id="careers" style="background:#f7fbff"><div class="container"><div class="section-head"><div class="eyebrow">Join our team</div><h2>Looking for work?</h2><p>Share your contact details and the type of work you are looking for. Our team can follow up when suitable opportunities are available.</p><a class="btn" href="#contact" onclick="document.getElementById('service-type').value='Job enquiry'">Apply / Enquire →</a></div></div></section>
+
+<section id="contact"><div class="container"><div class="section-head"><div class="eyebrow">Get in touch</div><h2>Request a Quote</h2><p>Tell us your requirement and we’ll get back to you with the best solution.</p></div>
+<div class="contact-grid"><div class="contact-info"><h3>Kartikeya Manpower Service</h3><p>Contact us for manpower, housekeeping, security, healthcare staffing and project enquiries.</p>
+<p><strong>Phone:</strong> <a href="tel:9899535668">9899535668</a></p><p><strong>Phone:</strong> <a href="tel:7982821232">7982821232</a></p><p><strong>Email:</strong> <a href="mailto:kartikeyamanpowerservice@gmail.com">kartikeyamanpowerservice@gmail.com</a></p><p><strong>Office:</strong> D-1/337/3, Gali No-14, Ashok Nagar, Shahdara, Delhi - 110093</p><p><strong>GSTIN:</strong> 07DJUPM2376H1ZM</p>
+<a class="btn" href="https://wa.me/919899535668" target="_blank" rel="noopener">Message on WhatsApp</a></div>
+<form id="enquiry-form"><label>Your Name<input name="name" autocomplete="name" required placeholder="Your name"></label><label>Email<input name="email" type="email" autocomplete="email" placeholder="Your email"></label><label>Phone Number<input name="phone" type="tel" autocomplete="tel" required placeholder="Phone number"></label>
+<label>Service Required<select id="service-type" name="type" required><option value="">Select a service</option><option>Housekeeping Services</option><option>Manpower Services</option><option>Security Guard Services</option><option>Nursing &amp; Healthcare Staffing</option><option>Power-Grid &amp; Utility Staffing</option><option>Tender &amp; Project Management</option><option>Job enquiry</option><option>Other</option></select></label>
+<label>Tell us more about your requirement<textarea name="details" required placeholder="Workers needed, location, duration, or your enquiry"></textarea></label><button class="btn" type="submit">Submit Request →</button><p class="form-note" id="form-message">Submitting opens an email draft in your email app. This demo does not save data to a server.</p></form>
+</div></div></section>
+</main>
+<footer><div class="container footer-row"><div><strong>KMS · Kartikeya Manpower Service</strong><p style="margin-top:8px">D-1/337/3, Gali No-14, Ashok Nagar, Shahdara, Delhi - 110093</p></div><div><p>☎ 9899535668 · 7982821232</p><p>✉ kartikeyamanpowerservice@gmail.com</p><p>GSTIN: 07DJUPM2376H1ZM</p><p>© <span id="year"></span> Kartikeya Manpower Service. All rights reserved.</p></div></div></footer>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+document.getElementById("enquiry-form").addEventListener("submit",function(event){
+ event.preventDefault();const data=new FormData(event.currentTarget);
+ const subject=encodeURIComponent("KMS Website Enquiry - "+data.get("type"));
+ const body=encodeURIComponent("Name: "+data.get("name")+"\\nPhone: "+data.get("phone")+"\\nEmail: "+(data.get("email")||"Not provided")+"\\nService: "+data.get("type")+"\\n\\nDetails:\\n"+data.get("details"));
+ window.location.href="mailto:kartikeyamanpowerservice@gmail.com?subject="+subject+"&body="+body;
+});
+</script>
+</body></html>
